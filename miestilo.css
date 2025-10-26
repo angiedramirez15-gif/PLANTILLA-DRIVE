@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 90px;
+}
+
+h1 
+{ 
+  font-family: nosifer, bold;
+  color:rgb(163, 17, 17);
+  text-align: center;
+}
+
+p
+{
+    font-family:'Courier New', Courier, monospace;
+    font: 90px;
+    text-align: justify;
+    margin: 20px;
+    color: #000;
+    line-height: 2.0;
+}
+
+body {
+  text-align: center;
+  background-color:  #202024;
+  margin: 0;
+  padding: 0;
+   background-image: url(/pictures/fondo1.png);
+  background-repeat: repeat;
+  background-size: 150px;
+}
+#contenedor {
+  width: 960px;
+  margin: 15px auto;
+  border: 1px solid #000;
+}
+#cabecera {
+  width: 100%;                  
+  height: 200px;               
+  background: url(/pictures/mj\ triller.png) no-repeat center center;
+  background-size: cover;
+}
+
+nav.menu{
+    border-bottom: 1px solid #000;
+    position: relative;
+    background-color: #b81f1f;
+    padding: 4px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav.menu ul{
+    position: relative;
+    width: 105%;
+}
+nav.menu ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;   
+}
+
+nav.menu ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+nav.menu ul li a:hover,
+nav.menu ul li a.activo{
+    background-color: #0a0a0a;
+    border-radius: 20px;
+    border-style: hidden;
+}
+
+#pie {
+  background-color: #171414;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: none;
+}
+article {
+  background: #7d6c6c;       
+  border: 1px solid #9c3333; 
+  padding: 20px;             
+  margin-bottom: 0px;    
+  color: #fff;
+  box-shadow: none; 
+     
+}
+
+article footer {
+  text-align: right;
+  background-color: #7d6c6c;       
+  padding: 20px;             
+  margin-bottom: 15px;
+  color: #fff;
+
+}
+
+time {
+  color: #000000;
+
+}
+figcaption {
+  font: italic 14px verdana, sans-serif;
+}
+#btn-musica {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s ease;
+  }
+
+  #btn-musica:hover {
+    transform: scale(1.1);
+    background: darkred;
+  }
+ 
+aside blockquote{
+  background-color: #fff;
+  box-shadow: none; 
+  
+}
+aside h3{
+  background-color: #ffffff;
+  box-shadow: none; 
+  
+}
+aside #columna{
+  width: 960px;
+  height: 54,60px;
+}
+ 
