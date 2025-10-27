@@ -1,8 +1,14 @@
 header {
   background-color: rgb(92, 99, 106);
-  height: 900px;
+  height: 1550px;
+  
 }
+p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma ;
 
+}
 
 .zona_inferior {
   position: relative;
@@ -14,6 +20,69 @@ header {
   padding: 30px 20px;
   z-index: 1;
 }
+header {
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+figure {
+  width: 400px;
+  margin: 20px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: auto;
+}
+
+figure.izquierda {
+  float: left;
+  margin-right: 55px;
+  margin-top: 20px;
+}
+
+figure.centro {
+  float: center;
+  position: absolute;
+  padding:375px 15px;
+
+}
+
+figure.derecha {
+  float: right;
+  margin-left: 25px;
+}
+
+figure.history {
+  float: right;
+  margin-left: 300px;
+  margin-top: -490px; 
+  position: absolute;
+  padding: 150px;
+}
+figure.fin {
+  float: left;
+  margin-left: -450px; 
+  margin-top: -100px; 
+  position: absolute;
+  padding: -500px;
+}
+
+
+
+
+figcaption {
+  font-style: italic;
+  color: #ddd;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
 
 aside  blockquote{
   color: white;
@@ -27,7 +96,7 @@ aside  blockquote{
   color: white;           
   text-align: center;
   padding: 10px;
-  font-size: 19px;
+  font-size: 13px;
   background: none;
 }
 #columna h3{
@@ -52,7 +121,6 @@ aside  blockquote{
 }
 
 
-body {
-  background-color: #202024;
-}
 
+
+  
