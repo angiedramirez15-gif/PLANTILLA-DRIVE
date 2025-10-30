@@ -1,0 +1,56 @@
+header {
+  background-color: rgb(92, 99, 106);
+  height: 1150px;
+  }
+
+  h1{
+    padding: 20px;
+ }
+
+ p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+   }
+
+figure {
+  width: 400px;
+  margin: 20px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: auto;
+}
+
+figure.izquierda {
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 29%;
+  position: absolute;
+  padding: 8% 31%;
+ 
+}
+
+figure.derecha {
+  float: left;
+  position:absolute;
+  padding: 22% 0%; 
+  width: 30%;
+
+  }
+
+  figure.centro {
+  float: left;
+  position:absolute;
+  padding: 0% 0%; 
+  width: 30%;
+}
+  figure.moda {
+  float: left;
+  position:absolute;
+  padding: 35% 35%; 
+  width: 20%;
+
+  }
